@@ -7,7 +7,6 @@ class RootSplitVC: UISplitViewController {
     super.viewDidLoad()
 
     let viewController = SideBarListViewController()
-
     primaryBackgroundStyle = .sidebar
     preferredDisplayMode = .oneBesideSecondary
 
